@@ -1,1 +1,7 @@
-# hetic-w2-p2019-bbt
+# Bubble Tea
+
+### Projet du cours d'intégration avancée.
+
+... more to come
+
+
