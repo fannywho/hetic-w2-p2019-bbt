@@ -1,8 +1,8 @@
 module.exports = {
     entry: "./app/app.js",
-    output: {
+        output: {
         path: "./dist",
-        filename: "bundle.js"
+            filename: "bundle.js"
     },
     module: {
         loaders: [
