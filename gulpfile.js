@@ -12,7 +12,7 @@ gulp.task('scss', function() {
     return gulp.src('app/scss/style.scss')
         .pipe(sass())
         .pipe(postcss(processors))
-        .pipe(gulp.dest('dist/css'))
+        .pipe(gulp.dest('app/scss'))
         .pipe(sync.stream());
 });
 

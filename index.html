@@ -1,136 +1,138 @@
 <!DOCTYPE html>
 <html>
-<head lang="fr">
-  <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Qualité - Moment Tea</title>
-  <!-- With webpack -->
-  <!-- <script type="text/javascript" src="dist/bundle.js"></script> -->
+  <head lang="fr">
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qualité - Moment Tea</title>
+    <!-- With webpack -->
+    <!-- <script type="text/javascript" src="dist/bundle.js"></script> -->
 
-  <!-- With gulp -->
+    <!-- With gulp -->
 
-  <link rel="stylesheet" type="text/css" href="dist/css/style.css">
-</head>
-<body>
-  <header>
-    <h1>Moment Tea</h1>
-    <!-- ajouter icon burger menu en svg -->
-    <svg class="menu" alt="menu"/>
-  </header>
-  <main>
-    <section class="landing">
-      <h2>Good moment, good tea</h2>
-      <p>Découvrez une nouvelle manière de voir le thé.</p>
-      <svg class="scroll-down" alt="scroll-down"/>
-    </section>
-
-    <section class="decouverte">
-      <h2>découverte</h2>
-      <div class="illustration">
-        <article class="selection">
-          <div class="item-content">
-            <svg src="#" class="left-nav" alt="left-nav"/>
-            <a href="#"><img src="#" class="item" alt="#"/></a>
-            <svg src="#" class="right-nav" alt="right-nav"/>
-          </div>
-          <nav class="item-nav">
-            <ul>
-              <li value="0"><svg src="#" class="cursor " alt="cursor"/></li>
-              <li value="1"><svg src="#" class="cursor active" alt="cursor"/></li>
-              <li value="2"><svg src="#" class="cursor" alt="cursor"/></li>
-            </ul>
-          </nav>
-        <article>
-        <article class="description">
-          <p>Au delà du bubble tea, nous vous proposons de découvrir nos recettes maison prêtes à déguster à base de thé,café ou chocolat et nos friandises asiatiques que vous allez adorer. Explosion de saveurs garantie !</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="recettes">
-    <h2>Recettes</h2>
-    <div class="illustration">
-      <article class="item-recette">
-        <a href="#" alt='#>'<img src='#' class="recette-illustration" alt="Fraise-Yaourt"/></a>
-        <div class="link">
-          <a href="#" alt='#'>Fraise-Yaourt</a>
-        </div>
-      <article>
-        <article class="item-recette">
-          <a href="#" alt='#>'<img src='#' class="recette-illustration" alt="Daily-Balance"/></a>
-          <div class="link">
-            <a href="#" alt='#'>Daily Balance</a>
-          </div>
-        <article>
-          <article class="item-recette">
-            <a href="#" alt='#>'<img src='#' class="recette-illustration" alt="Fruit de la passion - Litchi"/></a>
-            <div class="link">
-              <a href="#" alt='#'>Fruit de la passion - Litchi</a>
-            </div>
-          <article>
-            <article class="item-recette">
-              <a href="#" alt='#>'<img src='#' class="recette-illustration" alt="Mangue - Citron"/></a>
-              <div class="link">
-                <a href="#" alt='#'>Mangue - Citron</a>
-              </div>
-            <article>
-
-            <div class="more active">
-              <a href="#" alt="#">Découvrir d'autres recettes</a>
-            </div>
+    <link rel="stylesheet" type="text/css" href="app/scss/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Moment Tea</h1>
+      <!-- ajouter icon burger menu en svg -->
+      <svg class="menu" alt="menu"/>
+    </header>
+    <main>
+      <section class="landing">
+        <div class="container">
+          <h2>Good moment, good tea</h2>
+          <p>Découvrez une nouvelle manière de voir le thé.</p>
+          <svg class="scroll-down" alt="scroll-down"/>
         </div>
       </section>
 
-      <section class="qualite">
-        <h2>Qualité</h2>
-        <section class="illustration">
+      <section class="decouverte">
+        <h2>découverte</h2>
+        <div class="illustration">
           <article class="selection">
             <div class="item-content">
               <svg src="#" class="left-nav" alt="left-nav"/>
-              <a href="#"><img src="#" class="item" alt="#"/></a>
+              <a href="#"><img src="app/img/img-content/discover.jpg" class="item" alt="#"/></a>
               <svg src="#" class="right-nav" alt="right-nav"/>
             </div>
             <nav class="item-nav">
               <ul>
                 <li value="0"><svg src="#" class="cursor " alt="cursor"/></li>
-                <li value="1"><svg src="#" class="cursor" alt="cursor"/></li>
-                <li value="2"><svg src="#" class="cursor active" alt="cursor"/></li>
+                <li value="1"><svg src="#" class="cursor active" alt="cursor"/></li>
+                <li value="2"><svg src="#" class="cursor" alt="cursor"/></li>
               </ul>
             </nav>
-          <article>
-          <article class="description">
-            <p>La qualité est et sera toujours au cœur de nos préoccupations. Nous nous attachons à sélectionner des thé de haute qualité, choisis avec soin dans différents pays asiatiques par la fondatrice de Momen’Tea elle-même. </p>
           </article>
-        </section>
-      </section>
-  </main>
-  <footer>
-    <section class="footer-illustration">
-      <div class="footer-left">
-
-      </div>
-      <div class="footer-right">
-
-      </div>
-      <svg src="#" class="top-arrow" alt="top-arrow"/>
-    </section>
-    <section class="footer-illustration">
-      <div class="container-left">
-        <div class="">
-          <p>12/14 Rue des Oliviers, 94320 Thiais</p>
+          <article class="description">
+            <p>Au delà du bubble tea, nous vous proposons de découvrir nos recettes maison prêtes à déguster à base de thé,café ou chocolat et nos friandises asiatiques que vous allez adorer. Explosion de saveurs garantie !</p>
+          </article>
         </div>
-        <ul>
-          <li><svg src="#" class="green" alt="green"/></li>
-          <li><svg src="#" class="green" alt="green"/></li>
-          <li><svg src="#" class="green" alt="green"/></li>
-        </ul>
-      </div>
-      <div class="container-right">
-        <a href="#">Mentions légales</a>
-        <a href="#">Boutique</a>
-        <a href="#">Nous contacter</a>
-      </div>
-    </section>
-  </footer>
-</body>
+      </section>
+
+      <section class="recettes">
+        <h2>Recettes</h2>
+        <div class="illustration">
+          <div class="item-recette">
+            <a href="#" alt='#'><img src='#' class="recette-illustration" alt="Fraise-Yaourt"/></a>
+            <div class="link">
+              <a href="#" alt='#'>Fraise-Yaourt</a>
+            </div>
+          </div>
+          <div class="item-recette">
+            <a href="#" alt='#'><img src='#' class="recette-illustration" alt="Daily-Balance"/></a>
+            <div class="link">
+              <a href="#" alt='#'>Daily Balance</a>
+            </div>
+          </div>
+          <div class="item-recette">
+            <a href="#" alt='#'><img src='#' class="recette-illustration" alt="Fruit de la passion - Litchi"/></a>
+            <div class="link">
+              <a href="#" alt='#'>Fruit de la passion - Litchi</a>
+            </div>
+          </div>
+          <div class="item-recette">
+            <a href="#" alt='#'><img src='#' class="recette-illustration" alt="Mangue - Citron"/></a>
+            <div class="link">
+              <a href="#" alt='#'>Mangue - Citron</a>
+            </div>
+          </div>
+          <div class="more active">
+            <a href="#" alt="#">Découvrir d'autres recettes</a>
+          </div>
+        </div>
+      </section>
+
+        <section class="qualite">
+          <h2>Qualité</h2>
+          <section class="illustration">
+            <article class="selection">
+              <div class="item-content">
+                <svg src="#" class="left-nav" alt="left-nav"/>
+                <a href="#"><img src="#" class="item" alt="#"/></a>
+                <svg src="#" class="right-nav" alt="right-nav"/>
+              </div>
+              <nav class="item-nav">
+                <ul>
+                  <li value="0"><svg src="#" class="cursor " alt="cursor"/></li>
+                  <li value="1"><svg src="#" class="cursor" alt="cursor"/></li>
+                  <li value="2"><svg src="#" class="cursor active" alt="cursor"/></li>
+                </ul>
+              </nav>
+            </article>
+            <article class="description">
+              <p>La qualité est et sera toujours au cœur de nos préoccupations. Nous nous attachons à sélectionner des thé de haute qualité, choisis avec soin dans différents pays asiatiques par la fondatrice de Momen’Tea elle-même. </p>
+            </article>
+          </section>
+        </section>
+    </main>
+
+    <footer>
+      <section class="footer-illustration">
+        <div class="footer-left">
+
+        </div>
+        <div class="footer-right">
+
+        </div>
+        <svg src="#" class="top-arrow" alt="top-arrow"/>
+      </section>
+      <section class="footer-illustration">
+        <div class="container-left">
+          <div class="">
+            <p>12/14 Rue des Oliviers, 94320 Thiais</p>
+          </div>
+          <ul>
+            <li><svg src="#" class="green" alt="green"/></li>
+            <li><svg src="#" class="green" alt="green"/></li>
+            <li><svg src="#" class="green" alt="green"/></li>
+          </ul>
+        </div>
+        <div class="container-right">
+          <a href="#">Mentions légales</a>
+          <a href="#">Boutique</a>
+          <a href="#">Nous contacter</a>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
