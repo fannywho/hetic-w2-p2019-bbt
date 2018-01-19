@@ -8,6 +8,5 @@
 `npm install`
 
 ### Url du projet en ligne
-[url à ajouter]
-
+https://bbt.netlify.com/
 
