@@ -17,12 +17,11 @@ var uglify = require('gulp-uglify');
 var isProd = process.env.NODE_ENV === 'production';
 
 /**
- * PUG
+ * HTML
  */
 
 function templates() {
-  return gulp.src('src/pages/**/*.pug')
-    .pipe(pug())
+  return gulp.src('app/index.html')
     .pipe(gulp.dest('dist/'))
     .pipe(sync.stream());
 }
@@ -32,7 +31,7 @@ function templates() {
  */
 
 function scss() {
-  return gulp.src('src/scss/styles.scss')
+  return gulp.src('app/scss/style.scss')
     .pipe(gulpif(!isProd, sourcemaps.init()))
     .pipe(sass())
     .pipe(gulpif(isProd, minifyCSS()))
@@ -46,10 +45,10 @@ function scss() {
  */
 
 function js() {
-  return browserify({entries: ['src/js/script.js'], debug: true})
+  return browserify({entries: ['app/index.js'], debug: true})
     .transform(babelify, {presets: 'es2015'})
     .bundle()
-    .pipe(source('script.js'))
+    .pipe(source('index.js'))
     .pipe(buffer())
     .pipe(gulpif(!isProd, sourcemaps.init({loadMaps: true})))
     .pipe(uglify())
@@ -63,7 +62,7 @@ function js() {
  */
 
 function images() {
-  return gulp.src('src/img/**/*')
+  return gulp.src('app/img/**/*')
     .pipe(gulpif(isProd, imagemin({verbose: true})))
     .pipe(gulp.dest('dist/img'));
 }
