@@ -25,6 +25,7 @@ const createTeaChoices = () => {
   const green = document.getElementById('green');
   const black = document.getElementById('black');
 
+
   red.addEventListener('click', () => {
     cup.style.borderTop = "200px solid red";
   });
@@ -34,6 +35,8 @@ const createTeaChoices = () => {
   black.addEventListener('click', () => {
     cup.style.borderTop = "200px solid brown";
   });
+
+
 };
 
 // Fonction qui crée la div de choix de bubbles
