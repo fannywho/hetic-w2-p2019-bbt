@@ -7,8 +7,22 @@
     margin: 0;
 }
 
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
 body {
     background: #FFF9EF;
+
+    img {
+        width: 100%;
+    }
 
     header {
         display: flex;
@@ -68,14 +82,20 @@ body {
                 }
             }
         }
-        .decouverte {
-            height: $heightSection;
+        .slider {
+            .about {
+                height: $heightSection;
+            }
+            .discover {
+                height: $heightSection;
+            }
+            .quality {
+                height: $heightSection;
+            }
         }
-        .recettes {
-            height: $heightSection;
-        }
-        .qualite {
-            height: $heightSection;
+
+        .recipes {
+
         }
     }
     footer {
