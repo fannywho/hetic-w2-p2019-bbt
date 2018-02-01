@@ -22,7 +22,7 @@ var isProd = process.env.NODE_ENV === 'production';
 
 function templates() {
   return gulp.src('app/index.html')
-    .pipe(gulp.dest('dist/'))
+    .pipe(gulp.dest('dist'))
     .pipe(sync.stream());
 }
 
@@ -72,7 +72,7 @@ function images() {
  */
 
 function fonts() {
-  return gulp.src('src/fonts/**/*')
+  return gulp.src('app/fonts/**/*')
     .pipe(gulp.dest('dist/fonts'));
 }
 
@@ -93,9 +93,9 @@ gulp.task('default', gulp.parallel(templates, scss, js, images, fonts, function(
     }
   });
 
-  gulp.watch('src/**/*.pug', templates);
-  gulp.watch('src/**/*.scss', scss);
-  gulp.watch('src/**/*.js', js);
+  gulp.watch('app/**/*.html', templates);
+  gulp.watch('app/**/*.scss', scss);
+  gulp.watch('app/**/*.js', js);
 
   done();
 }));
