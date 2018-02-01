@@ -179,3 +179,4 @@ Temporary Items
 .idea/modules.xml
 .idea/workspace.xml
 /dist
+.idea/*
