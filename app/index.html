@@ -6,7 +6,7 @@
     <title>Qualité - Moment Tea</title>
     <!-- With gulp -->
 
-    <link rel="stylesheet" type="text/css" href="scss/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <header>
@@ -76,35 +76,71 @@
 
         <div class="recipes">
             <h2>Recettes</h2>
-            <div class="illustration">
-                <div class="item-recipe">
-                    <!-- <a href="#" alt='#'><img src='#' class="recette-illustration" alt="Fraise-Yaourt"/></a> -->
-                    <div class="link">
-                        <a href="#" alt='#'>Fraise-Yaourt</a>
+            <div class="recipes__gallery">
+                <div class="recipes__item">
+                    <img src="img/img-content/small-fraises.png" alt="Bubble Tea Fraise Yaourt">
+                    <div class="recipes__title">
+                        <p>Fraise -</p><span>Yaourt</span>
                     </div>
                 </div>
-                <div class="item-recipe">
-                    <!-- <a href="#" alt='#'><img src='img/img-content/daily.png' class="recette-illustration" alt="Daily-Balance"/></a> -->
-                    <div class="link">
-                        <a href="#" alt='#'>Daily Balance</a>
+                <div class="recipes__item">
+                    <img src="img/img-content/small-speculos.jpg" alt=" Bubble Tea Speculos">
+                    <div class="recipes__title">
+                        <p>Daily -</p><span>Balance</span>
                     </div>
                 </div>
-                <div class="item-recipe">
-                    <!-- <a href="#" alt='#'><img src='img/img-content/mangue.jpg' class="recette-illustration" alt="Fruit de la passion - Litchi"/></a> -->
-                    <div class="link">
-                        <a href="#" alt='#'>Fruit de la passion - Litchi </a>
+                <div class="recipes__item">
+                    <img src="img/img-content/small-mangue.jpg" alt=" Bubble Tea Mangue Litchi">
+                    <div class="recipes__title">
+                        <p>Mangue -</p><span>Litchi</span>
                     </div>
                 </div>
-                <div class="item-recipe">
-                    <!-- <a href="#" alt='#'><img src='img/img-content/mangue_citron.jpg' class="recette-illustration" alt="Mangue - Citron"/></a> -->
-                    <div class="link">
-                        <a href="#" alt='#'>Mangue - Citron</a>
+                <div class="recipes__item">
+                    <img src="img/img-content/small-mangue-citron.jpg" alt=" Bubble Tea Mangue Citron">
+                    <div class="recipes__title">
+                        <p>Mangue -</p><span>Citron</span>
                     </div>
-                </div>
-                <div class="more active">
-                    <a href="#" alt="#">Découvrir d'autres recettes</a>
                 </div>
             </div>
+            <div class="recipes__discover">
+                <div class="recipes__cta">
+                    <p>Découvrir d'autres recettes</p>
+                </div>
+            </div>
+
+            <!-- All recipes -->
+            <div class="recipes__modal">
+                <h2>Recettes</h2>
+                <div class="modal__close">
+                </div>
+                <div class="recipes__large-gallery">
+                    <div class="recipes__item">
+                        <img src="img/img-content/small-fraises.png" alt="Bubble Tea Fraise Yaourt">
+                        <div class="recipes__title">
+                            <p>Fraise -</p><span>Yaourt</span>
+                        </div>
+                    </div>
+                    <div class="recipes__item">
+                        <img src="img/img-content/small-speculos.jpg" alt=" Bubble Tea Speculos">
+                        <div class="recipes__title">
+                            <p>Daily -</p><span>Balance</span>
+                        </div>
+                    </div>
+                    <div class="recipes__item">
+                        <img src="img/img-content/small-mangue.jpg" alt=" Bubble Tea Mangue Litchi">
+                        <div class="recipes__title">
+                            <p>Mangue -</p><span>Litchi</span>
+                        </div>
+                    </div>
+                    <div class="recipes__item">
+                        <img src="img/img-content/small-mangue-citron.jpg" alt=" Bubble Tea Mangue Citron">
+                        <div class="recipes__title">
+                            <p>Mangue -</p><span>Citron</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <!-- début div atelier -->
         <div class="atelier">
@@ -171,5 +207,5 @@
         </div>
     </footer>
 </body>
-<script type="text/javascript" src="js/atelier.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 </html>
