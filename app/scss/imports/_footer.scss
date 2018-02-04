@@ -1,12 +1,15 @@
 @import "./_colors.scss";
 @import "./_grid.scss";
-
+p {
+  margin: 0;
+}
 .footer {
   display: flex;
   height: 105px;
   position: relative;
   background-color: $bridal-heath;
   color: $emperor;
+  margin-top: 20px;
   @include font-size(14px);
   @include bp('tablet') {
     justify-content: center;
@@ -56,7 +59,7 @@
 
 .footer-button {
   position: absolute;
-  top: -30px;
+  top: -48px;
   right: 5px;
   background-color: $burnt-sienna;
   width: 40px;
