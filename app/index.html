@@ -9,13 +9,22 @@
 
     <!-- With gulp -->
 
-    <link rel="stylesheet" type="text/css" href="scss/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Moment Tea</h1>
-        <!-- ajouter icon burger menu en svg -->
-        <svg class="menu" alt="menu"/>
+      <h1>Moment Tea</h1>
+      <nav>
+        <ul>
+          <li><a href="#" alt="#" class="active">Home</a></li>
+          <li><a href="#" alt="#">A propos</a></li>
+          <li><a href="#" alt="#">Recettes</a></li>
+          <li><a href="#" alt="#">Atelier</a></li>
+        </ul>
+      </nav>
+        <!-- <h1>Moment Tea</h1>
+        <!- ajouter icon burger menu en svg -->
+        <!-- <svg class="menu" alt="menu"/>  -->
     </header>
     <main>
         <div class="landing">
@@ -27,14 +36,23 @@
         </div>
 
         <div class="slider">
-            <div class="about">
-                <h2>à propos</h2>
-                <img src="" alt="">
+            <nav class="navigation">
+              <ul>
+                <li><a href="#" alt="#" class="active">A propos</a></li>
+                <li><a href="#" alt="#">Decouverte</a></li>
+                <li><a href="#" alt="#">Qualité</a></li>
+              </ul>
+            </nav>
+
+            <div class="categories">
+              <h2>à propos</h2>
+                <div class="_illustration">
+                </div>
                 <div class="container">
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li class="active"></li>
+                        <li class="inactive"></li>
+                        <li class="inactive"></li>
                     </ul>
                     <div class="text-container">
                         Le Bubble Tea bar est un salon de thé de nouvelle génération dans lequel
@@ -42,14 +60,32 @@
                     </div>
                 </div>
             </div>
-            <div class="discover">
-                <h2>découverte</h2>
-                <img src="" alt="">
+
+            <!-- <div class="about">
+              <h2>à propos</h2>
+                <div class="about_illustration">
+                </div>
                 <div class="container">
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li class="active"></li>
+                        <li class="inactive"></li>
+                        <li class="inactive"></li>
+                    </ul>
+                    <div class="text-container">
+                        Le Bubble Tea bar est un salon de thé de nouvelle génération dans lequel
+                        on peut boire l’une des boissons les plus demandées en Asie : le Bubble Tea.
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="discover hidden">
+                <h2>découverte</h2>
+                <div class="discover_illustration">
+                </div>
+                <div class="container">
+                    <ul>
+                        <li class="inactive"></li>
+                        <li class="active"></li>
+                        <li class="inactive"></li>
                     </ul>
                     <div class="text-container">
                         Au delà du bubble tea, nous vous proposons de découvrir nos recettes maison prêtes à déguster
@@ -58,14 +94,15 @@
                     </div>
                 </div>
             </div>
-            <div class="quality">
+            <div class="quality hidden">
                 <h2>qualité</h2>
-                <img src="" alt="">
+                <div class="quality_illustration">
+                </div>
                 <div class="container">
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li class="inactive">1</li>
+                        <li class="inactive">2</li>
+                        <li class="active">3</li>
                     </ul>
                     <div class="text-container">
                         La qualité est et sera toujours au cœur de nos préoccupations.
@@ -73,7 +110,7 @@
                         choisis avec soin dans différents pays asiatiques par la fondatrice de Momen’Tea elle-même.
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 
 

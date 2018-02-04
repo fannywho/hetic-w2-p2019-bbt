@@ -1,6 +1,9 @@
 @import "imports/_variables.scss";
 @import "imports/_mixins.scss";
 @import "imports/_fonts.scss";
+@import "imports/_home.scss";
+@import "imports/_slider.scss";
+
 
 * {
     padding: 0;
@@ -17,89 +20,93 @@
     clear: both;
 }
 
+// body {
+//     background: #FFF9EF;
+//
+//     img {
+//         width: 100%;
+//     }
+//
+//     header {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         position: fixed;
+//         height: 12vh;
+//         top: 0;
+//         width: 100%;
+//         background: rgba(250,250,250,0.4);
+//         font-family: "Dancing Script", sans-serif;
+//
+//         svg.menu {
+//             position: absolute;
+//             right: 0;
+//             top: 50%;
+//             transform: translateY(-50%);
+//             width: 50px;
+//             height: 50px;
+//             background: #333;
+//         }
+//     }
+//     main {
+//
+//         .landing {
+//             background: url("../img/img-layout/home-bg.png") center center no-repeat;
+//             background-size:  cover;
+//             height: 100vh;
+// }
+//             .container {
+//                 padding-top: 12vh;
+//                 height: 88vh;
+//                 background: rgba(250,250,250,0.4);
+//
+//                 h2{
+//                     display: block;
+//                     width: 80%;
+//                     margin: 37% auto 0 auto;
+//                     font-family: "Lato", sans-serif;
+//                     text-transform: uppercase;
+//                     text-align: center;
+//                 }
+//                 p {
+//                     width: 80%;
+//                     margin: 10% auto 0 auto;
+//                     font-family: "Lato", sans-serif;
+//                     font-weight: bold;
+//                     font-size: 0.95em;
+//                     text-align: center;
+//                 }
+//                 .scroll-down {
+//                     display: block;
+//                     height: 40px;
+//                     width: 40px;
+//                     margin: 56% auto 0 auto;
+//                     background: #333;
+//                 }
+//             }
+//         }
+//         .slider {
+//             .about {
+//                 height: $heightSection;
+//             }
+//             .discover {
+//                 height: $heightSection;
+//             }
+//             .quality {
+//                 height: $heightSection;
+//             }
+//         }
+//
+//         .recipes {
+//
+//         }
+//     }
+//     footer {
+//
+//     }
+//
+// }
+
 body {
-    background: #FFF9EF;
-
-    img {
-        width: 100%;
-    }
-
-    header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        height: 12vh;
-        top: 0;
-        width: 100%;
-        background: rgba(250,250,250,0.4);
-        font-family: "Dancing Script", sans-serif;
-
-        svg.menu {
-            position: absolute;
-            right: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 50px;
-            height: 50px;
-            background: #333;
-        }
-    }
-    main {
-
-        .landing {
-            background: url("../img/img-layout/home-bg.png") center center no-repeat;
-            background-size:  cover;
-            height: 100vh;
-
-            .container {
-                padding-top: 12vh;
-                height: 88vh;
-                background: rgba(250,250,250,0.4);
-
-                h2{
-                    display: block;
-                    width: 80%;
-                    margin: 37% auto 0 auto;
-                    font-family: "Lato", sans-serif;
-                    text-transform: uppercase;
-                    text-align: center;
-                }
-                p {
-                    width: 80%;
-                    margin: 10% auto 0 auto;
-                    font-family: "Lato", sans-serif;
-                    font-weight: bold;
-                    font-size: 0.95em;
-                    text-align: center;
-                }
-                .scroll-down {
-                    display: block;
-                    height: 40px;
-                    width: 40px;
-                    margin: 56% auto 0 auto;
-                    background: #333;
-                }
-            }
-        }
-        .slider {
-            .about {
-                height: $heightSection;
-            }
-            .discover {
-                height: $heightSection;
-            }
-            .quality {
-                height: $heightSection;
-            }
-        }
-
-        .recipes {
-
-        }
-    }
-    footer {
-
-    }
-
+  background: #FFF9EF;
 }

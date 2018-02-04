@@ -32,7 +32,7 @@
 
 .cf:after {
   clear: both; }
-
+/*
 body {
   background: #FFF9EF; }
   body img {
@@ -91,3 +91,11 @@ body {
     height: 100vh; }
 
 /*# sourceMappingURL=style.css.map */
+/*
+body main .landing {
+  background: url("../img/img-layout/home-bg.png") center center no-repeat;
+  background-size: cover;
+  height: 100vh; } */
+  body {
+    background: #FFF9EF;
+  }
