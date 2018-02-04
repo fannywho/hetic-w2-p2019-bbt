@@ -1,66 +1,97 @@
-@charset "UTF-8";
-
-#container {
-  margin: auto;
-  width: 300px;
-  margin-top: 50px;
+/***** ATELIER *****/
+h2 {
+  text-align: center;
+  text-transform: uppercase;
 }
 
-/***** div buttons *****/
-.buttons {
+.atelier #container {
+  margin: 10px;
+}
+
+/***** Boutons choix 1 *****/
+.atelier .buttons {
+  display: flex;
+  justify-content: space-around;
   margin-bottom: 50px;
 }
 
-#choices div div {
+.buttons button {
+  background-color: lightgreen;
+  border-radius: 100px;
   width: 50px;
   height: 50px;
-  margin-top: 30px;
-  display: inline-block;
-  cursor: pointer;
+  border: 0;
+
+  &:active {
+    transform: translateY(2px);
+  }
+}
+
+/*** Boutons Choix 2 ***/
+
+#choices > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#choices button {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  border-radius: 100px;
+  border: 0;
+  background-color: #ccc;
+
+  &:active {
+    transform: translateY(2px);
+  }
 }
 
 /****** tea choices ******/
 
-#red{
-  background-color: red;
+#red.active {
+  background-color:red;
 }
 
-#green{
-  background-color: green;
+#green.active {
+  background-color: lightgreen;
 }
 
-#black{
+#black.active {
   background-color: black;
 }
 
 /*** bubble choice ***/
 
-#tapioca{
+#tapioca.active {
   background-color: black;
 }
 
-#candy{
+#candy.active {
   background-color: pink;
 }
 
-#none{
+#none.active {
   background-color: white;
   border: 1px solid black;
 }
 
 /*** flavour choice ***/
 
-.flavour div {
+.flavour button {
   background-color: magenta;
 }
 
 /*** heat choice ***/
 
-#hot {
-  background-color: red;
+#hot.active {
+  background-color: orange;
 }
 
-#cold {
+#cold.active {
   background-color: lightblue;
 }
 
@@ -73,16 +104,36 @@
   background: green;
 }
 
+/*** summary ****/
+#summary {
+  margin: 30px 0;
+}
+
+/**** Bouton commander ***/
+
+#valid-atelier {
+  background-color: brown;
+  padding: 10px 0;
+  border-radius: 10px;
+  width: 100%;
+  border: 0;
+  color: #fff;
+
+  &:active {
+    transform: translateY(2px);
+  }
+}
 
 /****** tasse bbt ******/
 
 #cup {
-  width: 100px;
+  width: 150px;
   border-top:  200px solid #27FB6B;
   border-left:  25px solid transparent;
   border-right: 25px solid transparent;
   opacity: 0.5;
   position: relative;
+  margin: 30px auto;
 
   &:before{
     width: 4px;
