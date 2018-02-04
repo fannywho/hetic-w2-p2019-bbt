@@ -7,8 +7,6 @@ const bubbleButton = document.getElementById('bubble-button');
 const flavourButton = document.getElementById('flavour-button');
 const heatButton = document.getElementById('heat-button');
 const sizeButton = document.getElementById('size-button');
-
-
 // Fonction qui crée la div de choix de thé
 const createTeaChoices = () => {
   // Création de la div qui contient les boutons des choix de thé

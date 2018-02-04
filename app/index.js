@@ -1,2 +1,1 @@
-import './atelier/atelier'
-
+import './js/scrollTop'
