@@ -21,6 +21,7 @@ body {
   background: #FFF9EF;
   padding: 0;
   margin: 0;
+  font-family: "Lato", sans-serif;
 
   img {
       width: 100%;
@@ -85,14 +86,43 @@ body {
           }
       }
       .slider {
-          .about {
+          >div {
               height: $heightSection;
+
+              h2 {
+                  margin: 8% 0;
+              }
+              .container {
+                  padding: 3% 0;
+
+                  img {
+                      display: block;
+                      width: 70%;
+                      margin: 0 auto;
+                      border-radius: 10px;
+                  }
+                  ul {
+                      display: flex;
+                      justify-content: space-around;
+                      list-style: none;
+                      width: 70%;
+                      padding: 0;
+                      margin: 5% auto;
+
+                      li {
+
+                      }
+                  }
+                  .text-container {
+                    text-align: center;
+                  }
+              }
+          }
+          .about {
           }
           .discover {
-              height: $heightSection;
           }
           .quality {
-              height: $heightSection;
           }
       }
 

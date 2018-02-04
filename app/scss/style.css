@@ -201,7 +201,8 @@ div#light {
 body {
   background: #FFF9EF;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: "Lato", sans-serif; }
   body img {
     width: 100%; }
   body header {
@@ -250,11 +251,25 @@ body {
         width: 40px;
         margin: 56% auto 0 auto;
         background: #333; }
-  body main .slider .about {
+  body main .slider > div {
     height: 100vh; }
-  body main .slider .discover {
-    height: 100vh; }
-  body main .slider .quality {
-    height: 100vh; }
+    body main .slider > div h2 {
+      margin: 8% 0; }
+    body main .slider > div .container {
+      padding: 3% 0; }
+      body main .slider > div .container img {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        border-radius: 10px; }
+      body main .slider > div .container ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        width: 70%;
+        padding: 0;
+        margin: 5% auto; }
+      body main .slider > div .container .text-container {
+        text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
