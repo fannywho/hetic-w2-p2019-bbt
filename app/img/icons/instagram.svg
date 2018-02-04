@@ -1,0 +1,16 @@
+<svg width="20" height="20" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icons8-instagram</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(2787 -7740)">
+<g id="icons8-instagram">
+<use xlink:href="#path0_fill" fill="url(#pattern0)" transform="translate(-2787 7740)"/>
+</g>
+</g>
+<defs>
+<pattern id="pattern0" patternUnits="objectBoundingBox" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="matrix(0.02 0 0 0.02 0 0)"/>
+</pattern>
+<path id="path0_fill" d="M 0 0L 20 0L 20 20L 0 20L 0 0Z"/>
+<image id="image0" width="50" height="50" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQ1SURBVGhD7ZlLqFVVGMdvvsAn5QOVQBFtGIRCo1AIUQeKg9JEQTR74APUqCaiNchn6UQj0kmQj/KJOrOJjgSJFCdmWUpCNvBFJprv32/DgsPh7H3W3mcdzx3cP/zgrnXX+vb+zl5rfd9aq6tHPeq8XoDXYQOchqvwAJ4m4l+4AMfhAxgFyTUDfoH6hz+CmwnQiXrbD+FbGA0taxAcgGD8CmyGyeADekEq9YfxsAD2w//gM/+D+VBZL8M50Nh1WAb94HlpLOwBn/8E1kNpDYDzoBGd0WintBDug+/yiRVldAjsqDODreiwpoPzUfw7SjYMw2mMFd1EH4Hv9Rv0taJILrFnwQ7LreiAHNaN5MIS5qzztVDGCRtehqZet0G74DFcglesqNNM8P0MBYUy2Nnwy6z0fPUa+OyATtWrN9wA/1+4ABmxbTQlK6XRMMgbLrUyhvg1giNboJG+B/+/KCvlyLTDRq2kBxPBL/orhKAmt+EnWAFDoZE+BFfKffCSFQ30GWhvbVbKkbmTS5yfsKzGwWEILy7a+ht0orb+FnwMfaCsloA2vslKObKBDy2rqWDOFF7yC5gEtSmM8ehtOArBoROQ98vnyXTFvkb9XFVx5E0wwbOv4zdv2NTqDfgL7ONyHzOHgtriiMPJL2C/z60ooZEQ0qAfrYhUWxwJc2J3ViovfwgzCG1MsyJCyR1xDpiV+kVihlOejNI+9+es1FzJHfkKbF8pva6RGcQ/oK1G0bxeyR1xW2p740arMopra1VWKlZyRwx2VWNOvdyj++wdWalYSR0ZAba9lpVa12zQnotHMyV1xP11bNsYzQXtxax+yYeW7Ww/JCu1pk9BW3mJYq2SO2ICaPu3slJrCrbmZKViJXfELNb25k6tyH2FyaoHDB4/NVNyRwyCIVE0d6oqX0gbHsbFKLkjyuMZ+7iPcSUrq3fB/ncg9kSxLY4YQ8L4NgE0d4qVThiLTHPmWRGptjiiXoRwLux+2typaMPkEZM7QNvrxBooo2hH/MxlNRB+APuLudNOMGLPgnfAYejXCyf4Psf6sgqOuPfJVTgVN+BVkYd7ZyA41Ih7oJNVT9lXgna2ZqUcXQQbTchK1WUWuxq2wxHw1zPYGSdiltgieRvgO2o/V8fARh7td1edBN/Rw7pcvQ828n6iO2o4mHHfhcLh73mWBwlG2U5eJeQpnGl5W9BUTkQbV92Ht0suDq50Ltlus5vKDl536YyXLN1B3pSFubHXilg52fXcyBt9sdImuaf/DnTiDyidCm0EOzu5vGRJefEZK0dH+BJmHK9CJbnh0RENmYYYpVPs0ZvJ1cmJ7Zzw2X9CZSeCHFq/gwbFAzUD3Dp4DwxyrWLSaMTeBKcg/HgOb+eEjiWR43QphGu5dmOcOAhRq1NVGV8Wg1/ka3BDlIJtYNrh8K2a6/WoR2nV1fUMno6jbVpFA9IAAAAASUVORK5CYII="/>
+</defs>
+</svg>

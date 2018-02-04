@@ -1,0 +1,16 @@
+<svg width="20" height="20" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icons8-twitter-logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(2675 -7740)">
+<g id="icons8-twitter-logo">
+<use xlink:href="#path0_fill" fill="url(#pattern0)" transform="translate(-2675 7740)"/>
+</g>
+</g>
+<defs>
+<pattern id="pattern0" patternUnits="objectBoundingBox" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="matrix(0.02 0 0 0.02 0 0)"/>
+</pattern>
+<path id="path0_fill" d="M 0 0L 20 0L 20 20L 0 20L 0 0Z"/>
+<image id="image0" width="50" height="50" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAL4SURBVGhD7dlJyE1hHMfxa86QJFKIEgsKIZF5KCuRhAUKUWTDBisbQsgYVshQbCxkjEhRkowLSRGZiQwlM9/fy/t2nPs/9557nuece9X51ac7dJ7nTM/z3Oc8t5AnT548WaQ5hmMGFmAS+qER/ov0wQG8xy/DI6xBO0RFJzsRHes+hTLs72taaYL1+AbrBMJeQ3crmGaYjpu4rC/C6YGvmFn3yX/UjE7BOuBSfmIl5mA/3qL++9EoijbWBl+gtuo7+xA8QFebYOY86jfSnZkNX5mG4EG40p1pDPUTdYcBaMhzBDfWrVsO1xFE/eIegnUn9QN7oWa2BQ9wFWq2DfkIq/AxmCNDzIyFVa8Pj9EV/0QjhLWxPMEUJMlmWHW6eoreKIqGMqtA0BnoN6CSnIRVl4u70ChrZh2sQmFqp0cwEnFyDVY9SemCt0VkNDVQB7cKR7mBFeiJqFyAVTapnSibo7AKx3EHGlEWYgi6QCOWpiLW9kntQNl0xztYFSTxHZ9D37lai8joyrX587YwDlFDcS1Yhsg0he7EdmhaPQoa3qyKqi08iSzKKwQLaJoS/FwrBqFkXDp6VnRxW6Fk5sEqXEuuoGxaIjxxrDUbECuzYFVQKzQIxc5uWJVU2wvoGSR29JuyB1Zl1bQViTIX4SG5WjRRLTWfK5vWWIxzqHRC6dNxJMp43MZZXEc1pyy6gAORKJqyPIRVcdYOwymTYVWcpQ/oBudsg7WDrCyCl2go3gVrJ2k7De+L2RqK38DaYRruoz1SiR74l+AS4i5CJ6Hnor7IJJpKaxHAOhAXOomhyCS6WlqmtA7EhVbZRyD1DMYhpNGstDbcC6lEI0Z/LMVFWAfggxb7vHTsCVgFrbyvhtaNtMyZ9oRRTUnPP14zBnqMtHbo2ydsRAekEjUlrbifgBbWrINw8RJ6VPUy5YibzlBTuwWX6bua50HoH6sWqGo6YSrUf9QxNfQ+g9q4lkP1qn+OdNL6s1PNZj60/lTRo2mePHnSSqHwGytirHRZXEWhAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

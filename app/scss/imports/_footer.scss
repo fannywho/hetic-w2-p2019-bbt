@@ -1,0 +1,22 @@
+@import "./_colors.scss";
+
+.footer {
+  display: flex;
+  height: 105px;
+  background-color: $bridal-heath;
+  &__right {
+    display: flex;
+    flex-direction: column;
+  }
+  &__left {
+    display: flex;
+    flex-direction: column;
+  }
+  &__socials {
+    display: flex;
+    color: black;
+  }
+  &__text {
+
+  }
+}

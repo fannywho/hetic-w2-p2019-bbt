@@ -1,0 +1,16 @@
+<svg width="18" height="18" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Ellipse</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-25 -7089)">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" fill="url(#pattern0)" transform="translate(25 7089)"/>
+</g>
+</g>
+<defs>
+<pattern id="pattern0" patternUnits="objectBoundingBox" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="matrix(0.03125 0 0 0.03125 0 0)"/>
+</pattern>
+<path id="path0_fill" d="M 18 9C 18 13.9706 13.9706 18 9 18C 4.02944 18 0 13.9706 0 9C 0 4.02944 4.02944 0 9 0C 13.9706 0 18 4.02944 18 9Z"/>
+<image id="image0" width="32" height="32" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADdcAAA3XAUIom3gAAAAHdElNRQfhCxcXIQbXRzmTAAABlElEQVRIx+3TO2jUQRDH8U/MQ0yKqKCgxKSwEomglZygCMHKKgiCiFVExCb4aAVLy2hjJ9gkPkDRQ7AQlTQGRMEHAVGIWMSISUBjcgcX1+LOv/tPzsv/vFJnmv3N7ndmZ4flv1W3jdmPrqoa7dfZWIK1zjbWwjVz9bSxvP6k4FIj9YOgqPtv4M3uCRU/XS/c6qTZBA8e1AM3GTARwUGwoC0rvtrIErjsXdnwdo+r4sH2FdktLThnXxQaty1Zd2KdY9ZbUDAjbyaF9zrKJnNRzSkXI3XYFd8jXXTTocp4e5zxWR8XUpc+4cYf2on9i9eC4JNm0dyDN7YqZkjwy4fgYyJ/OOBqHXiwG6YTed5BpRrHZ71M6bHySz6pyOv2mF8GzZs07o5Bu5zyLdop2QktXtmL5x7JWxONKHjqllFN2nTpM6gnNcLLXpQX+wXB21TV2yt2f1/r71zPoo1Fw7pxvOZrjGqPL9NvSsE7dw3YkERzxqrCi4Z0ZP2hR3xIwSUP5ZYeqm3NeuXsUPDVe3nT2Wr/W/YTkTo5GXrBXtYAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTctMTEtMjNUMjM6MzM6MDYrMDE6MDClzNmaAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE3LTExLTIzVDIzOjMzOjA2KzAxOjAw1JFhJgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII="/>
+</defs>
+</svg>
