@@ -4,9 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Qualité - Moment Tea</title>
-    <!-- With webpack -->
-    <!-- <script type="text/javascript" src="dist/bundle.js"></script> -->
-
     <!-- With gulp -->
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -29,12 +26,12 @@
         <div class="slider">
             <div class="about">
                 <h2>à propos</h2>
-                <img src="" alt="">
                 <div class="container">
+                    <img src="img/img-content/speculoos.png" alt="">
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>lien 1</li>
+                        <li>lien 2</li>
+                        <li>lien 3</li>
                     </ul>
                     <div class="text-container">
                         Le Bubble Tea bar est un salon de thé de nouvelle génération dans lequel
@@ -44,12 +41,12 @@
             </div>
             <div class="discover">
                 <h2>découverte</h2>
-                <img src="" alt="">
                 <div class="container">
+                    <img src="img/img-content/speculoos.png" alt="">
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>lien 1</li>
+                        <li>lien 2</li>
+                        <li>lien 3</li>
                     </ul>
                     <div class="text-container">
                         Au delà du bubble tea, nous vous proposons de découvrir nos recettes maison prêtes à déguster
@@ -60,12 +57,12 @@
             </div>
             <div class="quality">
                 <h2>qualité</h2>
-                <img src="" alt="">
                 <div class="container">
+                    <img src="img/img-content/speculoos.png" alt="">
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>lien 1</li>
+                        <li>lien 2</li>
+                        <li>lien 3</li>
                     </ul>
                     <div class="text-container">
                         La qualité est et sera toujours au cœur de nos préoccupations.
@@ -81,25 +78,25 @@
             <h2>Recettes</h2>
             <div class="illustration">
                 <div class="item-recipe">
-                    <a href="#" alt='#'><img src='#' class="recette-illustration" alt="Fraise-Yaourt"/></a>
+                    <!-- <a href="#" alt='#'><img src='#' class="recette-illustration" alt="Fraise-Yaourt"/></a> -->
                     <div class="link">
                         <a href="#" alt='#'>Fraise-Yaourt</a>
                     </div>
                 </div>
                 <div class="item-recipe">
-                    <a href="#" alt='#'><img src='img/img-content/daily.png' class="recette-illustration" alt="Daily-Balance"/></a>
+                    <!-- <a href="#" alt='#'><img src='img/img-content/daily.png' class="recette-illustration" alt="Daily-Balance"/></a> -->
                     <div class="link">
                         <a href="#" alt='#'>Daily Balance</a>
                     </div>
                 </div>
                 <div class="item-recipe">
-                    <a href="#" alt='#'><img src='img/img-content/mangue.jpg' class="recette-illustration" alt="Fruit de la passion - Litchi"/></a>
+                    <!-- <a href="#" alt='#'><img src='img/img-content/mangue.jpg' class="recette-illustration" alt="Fruit de la passion - Litchi"/></a> -->
                     <div class="link">
                         <a href="#" alt='#'>Fruit de la passion - Litchi </a>
                     </div>
                 </div>
                 <div class="item-recipe">
-                    <a href="#" alt='#'><img src='img/img-content/mangue_citron.jpg' class="recette-illustration" alt="Mangue - Citron"/></a>
+                    <!-- <a href="#" alt='#'><img src='img/img-content/mangue_citron.jpg' class="recette-illustration" alt="Mangue - Citron"/></a> -->
                     <div class="link">
                         <a href="#" alt='#'>Mangue - Citron</a>
                     </div>
@@ -109,10 +106,34 @@
                 </div>
             </div>
         </div>
-
-        <div class="workshop">
-
+        <!-- début div atelier -->
+        <div class="atelier">
+          <h2>L'atelier</h2>
+          <div id="container">
+            <div class="buttons">
+              <button id="tea-button">T</button>
+              <button id="flavour-button">F</button>
+              <button id="bubble-button">B</button>
+              <button id="heat-button">H</button>
+              <button id="size-button">S</button>
+            </div>
+            <div id="cup">
+              <div id="straw"></div>
+              <div id="light"></div>
+              <span class="bubble" id="one"></span>
+              <span class="bubble" id="two"></span>
+              <span class="bubble" id="three"></span>
+              <span class="bubble" id="four"></span>
+              <span class="bubble" id="five"></span>
+              <span class="bubble" id="six"></span>
+              <span class="bubble" id="seven"></span>
+            </div>
+            <div id="choices"></div>
+            <div id="summary">lorem tarass</div>
+            <button id="valid-atelier">Commander</button>
+          </div>
         </div>
+        <!-- Fin atelier -->
     </main>
     <!--<div class="footer__img col-12">
         <div class="footer__img&#45;&#45;left col-6">
@@ -151,4 +172,5 @@
     </footer>
     <script type="text/javascript" src="js/index.js"></script>
 </body>
+<script type="text/javascript" src="js/atelier.js"></script>
 </html>

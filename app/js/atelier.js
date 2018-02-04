@@ -1,8 +1,3 @@
-import './js/scrollTop'
-/*********************************
-************ ATELIER
-**********************************/
-
 // Initialisation des composants de l'atelier
 const cup = document.getElementById('cup');
 const cupBubbles = document.querySelectorAll('.bubble');

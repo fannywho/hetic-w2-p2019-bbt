@@ -182,3 +182,4 @@ Temporary Items
 .idea/workspace.xml
 /dist
 .idea/*
+app/scss/.sass-cache
