@@ -1,4 +1,5 @@
 import './js/recipes'
+import './js/scrollTop'
 
 /*********************************
 ************ ATELIER

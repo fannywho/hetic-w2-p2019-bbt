@@ -1,0 +1,16 @@
+<svg width="18" height="18" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>cupcake</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-81 -7088)">
+<g id="cupcake">
+<use xlink:href="#path0_fill" fill="url(#pattern0)" transform="translate(81 7088)"/>
+</g>
+</g>
+<defs>
+<pattern id="pattern0" patternUnits="objectBoundingBox" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="matrix(0.03125 0 0 0.03125 0 0)"/>
+</pattern>
+<path id="path0_fill" d="M 0 0L 18 0L 18 18L 0 18L 0 0Z"/>
+<image id="image0" width="32" height="32" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADdcAAA3XAUIom3gAAAAHdElNRQfhCxcXIwQLfzo9AAAC2ElEQVRIx5XVbWhWZRgH8F/PXNseLRJLnEmalvUhqAyNhkRvlr1ZsEbYUlCIDDQJCmJOCnpTFo4+yEIIShIprNAo+hRBrbWaK0s3s0kbgxpjZabbZG9XH3Z82p7tPNT/fDjn/l/X/3/OfV/3dR/Scb0f9XpDUYGcAsEKjeY77KwyR/1vLNIohDrlWs3478ILrFKvXSTXGd8Lf2vWoc/7qmQLyR90RDjpdXd5ImcSPnRUaPWa4/o1uGQ68Q2ahC+tlkmY7UaF0KxYxsNqkVGtR7fb8+WP6NdnA9io16bEtN5WM/Nyy31u1JMTqceNOuTSZPSynT5NneYO+xTZacRD56llhnynNJeScYv5KfKZzjgM3jVgxXh6mx4LkLHJArDG5mnqM477LAVlWn0AdwprwRIvegHs9EmefK5eC/O4FQbNYpdwIyi1zfIpb66wEcX2uDwvUmbMWt4U5hbYG9W+SI112Tte85ECBvusTo397OKMwCqFcC418puSjCasm0Rfq8U1udFij6YaXKmYUp1CdULNs9uQsNuShLnHoMdykkpVE6oQ3oGbnDLggLccdFZot8VPxnyrzksG9Qnvuc4crxgx5FlZlDshrDnvdSLpux6vmmW8rRt067ZLqecNCKHDNkPCgB/0Co25xsMDwpjFyagkb7ZzPKXWbCz3kRB+VZef1Sp8ljx3ujp16VYKDdMF1glhJTimNmG35o6PO9SAeqFiOoMZTgoHwX5fJew3SafwtvWgS2eutfKwRRi1CDXOJTNs9VyyKn9ZmBRvx7+SzCSDvYZlbECbkmQz9ZsH7vWHLlRhf5rBaU2oRBuuAL+bnWyoQ8har92R1AVWK4Sl+Dg5OK6yDNzmMmwWtiuAm0WBlAt1iAIFRpE/hWMp0RqheTI1tRwHVOJWp5TJysrm7lnPGFahTUHcb2zCP2nyNezuqZ+cj1+0OG3MRRMO+gHHfW2Pp7Xkp/8D4Pzy9r/C1fIAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTctMTEtMjNUMjM6MzU6MDQrMDE6MDA/Tbj0AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE3LTExLTIzVDIzOjM1OjA0KzAxOjAwThAASAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII="/>
+</defs>
+</svg>

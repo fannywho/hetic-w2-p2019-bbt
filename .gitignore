@@ -99,6 +99,8 @@ typings/
 .idea/**/sqlDataSources.xml
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
+.idea/
+app/.idea/
 
 # Gradle:
 .idea/**/gradle.xml

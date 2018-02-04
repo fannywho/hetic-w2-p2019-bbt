@@ -1,0 +1,14 @@
+<svg width="16" height="10" viewBox="0 0 16 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>expand more</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(2515 -7654)">
+<g id="expand more">
+<g id="Shape" opacity="0.54">
+<use xlink:href="#path0_fill" transform="matrix(-1 -8.74228e-08 8.74228e-08 -1 -2499.5 7663.25)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 13.25 0L 7.5 5.75L 1.75 0L 0 1.75L 7.5 9.25L 15 1.75L 13.25 0Z"/>
+</defs>
+</svg>
