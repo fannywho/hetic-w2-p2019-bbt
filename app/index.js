@@ -1,6 +1,6 @@
 import './js/recipes'
 import './js/scrollTop'
-
+import './js/modal'
 /*********************************
 ************ ATELIER
 **********************************/

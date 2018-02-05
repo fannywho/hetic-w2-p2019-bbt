@@ -13,3 +13,10 @@
     }
   }
 }
+
+.hidden-xs {
+  display: none;
+  @include bp('tablet') {
+    display: initial;
+  }
+}

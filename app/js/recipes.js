@@ -1,5 +1,5 @@
 const showAllRecipes = () => {
-  const smallGallery = document.querySelector('.recipes__modal');
+  const smallGallery = document.querySelector('.modal');
   smallGallery.style.display = "block";
 };
 
