@@ -183,3 +183,4 @@ Temporary Items
 /dist
 .idea/*
 app/scss/.sass-cache
+package-lock.json
