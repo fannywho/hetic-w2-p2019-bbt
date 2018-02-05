@@ -8,11 +8,21 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Moment Tea</h1>
-        <!-- ajouter icon burger menu en svg -->
-        <svg class="menu" alt="menu"/>
-    </header>
+  <header>
+    <h1>Moment Tea</h1>
+      <img src="img/img-layout/menu-button.png" alt="menu" class="responsive-menu">
+    <nav class="header_navigation">
+      <img src="img/img-layout/close-button.png" alt="close" class="close-menu">
+
+      <ul>
+        <li><a href="#" alt="#" class="active">Accueil</a></li>
+        <li><a href="#" alt="#">A propos</a></li>
+        <li><a href="#" alt="#">Recettes</a></li>
+        <li><a href="#" alt="#">Atelier</a></li>
+      </ul>
+    </nav>
+
+  </header>
     <main>
         <div class="landing">
             <div class="container">
@@ -21,16 +31,23 @@
                 <svg class="scroll-down" alt="scroll-down"/>
             </div>
         </div>
-
         <div class="slider">
-            <div class="about">
-                <h2>à propos</h2>
+            <nav class="navigation">
+              <ul>
+                <li class="active">A propos</li>
+                <li>Decouverte</li>
+                <li>Qualité</li>
+              </ul>
+            </nav>
+            <div class="categories">
+              <h2>à propos</h2>
+                <div class="illustration">
+                </div>
                 <div class="container">
-                    <img src="img/img-content/speculoos.png" alt="">
                     <ul>
-                        <li>lien 1</li>
-                        <li>lien 2</li>
-                        <li>lien 3</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
                     </ul>
                     <div class="text-container">
                         Le Bubble Tea bar est un salon de thé de nouvelle génération dans lequel
@@ -38,41 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="discover">
-                <h2>découverte</h2>
-                <div class="container">
-                    <img src="img/img-content/speculoos.png" alt="">
-                    <ul>
-                        <li>lien 1</li>
-                        <li>lien 2</li>
-                        <li>lien 3</li>
-                    </ul>
-                    <div class="text-container">
-                        Au delà du bubble tea, nous vous proposons de découvrir nos recettes maison prêtes à déguster
-                        à base de thé,café ou chocolat et nos friandises asiatiques que vous allez adorer.
-                        Explosion de saveurs garantie !
-                    </div>
-                </div>
-            </div>
-            <div class="quality">
-                <h2>qualité</h2>
-                <div class="container">
-                    <img src="img/img-content/speculoos.png" alt="">
-                    <ul>
-                        <li>lien 1</li>
-                        <li>lien 2</li>
-                        <li>lien 3</li>
-                    </ul>
-                    <div class="text-container">
-                        La qualité est et sera toujours au cœur de nos préoccupations.
-                        Nous nous attachons à sélectionner des thé de haute qualité,
-                        choisis avec soin dans différents pays asiatiques par la fondatrice de Momen’Tea elle-même.
-                    </div>
-                </div>
-            </div>
         </div>
-
-
         <div class="recipes">
             <h2 class="recipes__section">Recettes</h2>
             <div class="recipes__gallery">
