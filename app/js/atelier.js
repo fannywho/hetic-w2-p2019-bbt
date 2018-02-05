@@ -1,3 +1,5 @@
+import alertify from 'alertify.js'
+
 // Initialisation des composants de l'atelier
 const cup = document.getElementById('cup');
 const cupBubbles = document.querySelectorAll('.bubble');
@@ -7,10 +9,11 @@ const bubbleButton = document.getElementById('bubble-button');
 const flavourButton = document.getElementById('flavour-button');
 const heatButton = document.getElementById('heat-button');
 const sizeButton = document.getElementById('size-button');
+const confirm = document.getElementById('valid-atelier');
 
 
 // Fonction qui crée la div de choix de thé
-const createTeaChoices = () => {
+function createTeaChoices() {
   // Création de la div qui contient les boutons des choix de thé
   const teaChoices = [
     'green',
@@ -26,11 +29,19 @@ const createTeaChoices = () => {
   for (let i = 0; i < teaChoices.length; i++) {
     const elem = document.createElement("button");
     elem.setAttribute("id", teaChoices[i]);
+    if(teaChoices[i] === 'green') {
+      elem.innerHTML = 'Vert';
+    } else if(teaChoices[i] === 'red') {
+      elem.innerHTML = 'Rouge';
+    } else {
+      elem.innerHTML = 'Noir';
+    }
     teas.appendChild(elem);
   }
   choices.appendChild(teas);
 
   const teaButtons = document.querySelectorAll('.teas button');
+  const teaBase = document.getElementById("tea-base");
 
   red.addEventListener('click', () => {
     cup.style.borderTop = "200px solid red";
@@ -38,6 +49,8 @@ const createTeaChoices = () => {
       teaButtons[i].classList.remove('active');
     }
     red.classList.add('active');
+
+    teaBase.innerHTML = "Base de thé : Rouge."
   });
   green.addEventListener('click', () => {
     cup.style.borderTop = "";
@@ -46,6 +59,7 @@ const createTeaChoices = () => {
     }
     green.classList.add('active');
 
+    teaBase.innerHTML = "Base de thé : Vert."
   });
   black.addEventListener('click', () => {
     cup.style.borderTop = "200px solid brown";
@@ -53,16 +67,18 @@ const createTeaChoices = () => {
       teaButtons[i].classList.remove('active');
     }
     black.classList.add('active');
+
+    teaBase.innerHTML = "Base de thé : Noir."
   });
 };
 
 // Fonction qui crée la div de choix de bubbles
-const createBubbleChoices = () => {
+function createBubbleChoices() {
   // Création de la div qui contient les boutons des bubbles
   const bubbleChoices = [
     'tapioca',
     'candy',
-    'none'
+    'aucune'
   ];
 
   // Création de la div qui contient les boutons des choix de bubbles
@@ -74,11 +90,13 @@ const createBubbleChoices = () => {
   for (let i = 0; i < bubbleChoices.length; i++) {
     const elem = document.createElement("button");
     elem.setAttribute("id", bubbleChoices[i]);
+    elem.innerHTML = bubbleChoices[i].charAt(0).toUpperCase() + bubbleChoices[i].slice(1)
     bubbles.appendChild(elem);
   }
   choices.appendChild(bubbles);
 
   const bubblesButtons = document.querySelectorAll('.bubbles button');
+  const teaBubble = document.getElementById("tea-bubble");
 
   tapioca.addEventListener('click', () => {
     for (let i = 0; i < cupBubbles.length; i++) {
@@ -89,6 +107,7 @@ const createBubbleChoices = () => {
       bubblesButtons[i].classList.remove('active');
     }
     tapioca.classList.add('active');
+    teaBubble.innerHTML = "Bubbles : Tapioca."
   });
 
   candy.addEventListener('click', () => {
@@ -100,21 +119,23 @@ const createBubbleChoices = () => {
       bubblesButtons[i].classList.remove('active');
     }
     candy.classList.add('active');
+    teaBubble.innerHTML = "Bubbles : Bonbons."
   });
 
-  none.addEventListener('click', () => {
+  aucune.addEventListener('click', () => {
     for (let i = 0; i < cupBubbles.length; i++) {
       cupBubbles[i].style.display = "none";
     };
     for (let i = 0; i < bubblesButtons.length; i++) {
       bubblesButtons[i].classList.remove('active');
     }
-    none.classList.add('active');
+    aucune.classList.add('active');
+    teaBubble.innerHTML = "Pas de bubble."
   });
 };
 
 // Fonction qui crée la div de choix de chaleur
-const createHeatChoices = () => {
+function createHeatChoices() {
   // Création de la div qui contient les boutons des choix de chaleur
   const heatChoices = [
     'cold',
@@ -129,33 +150,42 @@ const createHeatChoices = () => {
   for (let i = 0; i < heatChoices.length; i++) {
     const elem = document.createElement("button");
     elem.setAttribute("id", heatChoices[i]);
+    if(heatChoices[i] === 'hot') {
+      elem.innerHTML = 'Chaud';
+    } else {
+      elem.innerHTML = 'Froid';
+    }
     heat.appendChild(elem);
   }
   choices.appendChild(heat);
 
   const heatButtons = document.querySelectorAll('.heat button');
+  const teaHeat = document.getElementById("tea-heat");
 
   cold.addEventListener('click', () => {
     for (let i = 0; i < heatButtons.length; i++) {
       heatButtons[i].classList.remove('active');
     }
     cold.classList.add('active');
+    teaHeat.innerHTML = "Thé froid."
   });
   hot.addEventListener('click', () => {
     for (let i = 0; i < heatButtons.length; i++) {
       heatButtons[i].classList.remove('active');
     }
     hot.classList.add('active');
+    teaHeat.innerHTML = "Thé chaud."
   });
 };
 
 // Fonction qui crée la div de choix de taille
-const createSizeChoices = () => {
+function createSizeChoices() {
   // Création de la div qui contient les boutons des taille
   const sizeChoices = [
     'small',
     'large'
   ];
+  const teaSize = document.getElementById("tea-size");
 
   // Création de la div qui contient les boutons des choix de taille
   choices.innerHTML='';
@@ -166,16 +196,19 @@ const createSizeChoices = () => {
   for (let i = 0; i < sizeChoices.length; i++) {
     const elem = document.createElement("button");
     elem.setAttribute("id", sizeChoices[i]);
+    elem.innerHTML = sizeChoices[i].charAt(0).toUpperCase() + sizeChoices[i].slice(1)
     size.appendChild(elem);
     elem.addEventListener('click', () => {
       elem.style.backgroundColor = "green";
+
+      teaSize.innerHTML = "Taille : " + sizeChoices[i] + "."
     })
   }
   choices.appendChild(size);
 };
 
 // Fonction qui crée la div de choix de saveurs
-const createFlavourChoices = () => {
+function createFlavourChoices() {
   const flavourChoices = [
     'coco',
     'mangue',
@@ -186,6 +219,7 @@ const createFlavourChoices = () => {
     'citron',
     'passion'
   ];
+  const teaFlavour = document.getElementById("tea-flavour");
 
   // Création de la div qui contient les boutons des choix de saveur
   choices.innerHTML='';
@@ -196,9 +230,12 @@ const createFlavourChoices = () => {
   for (let i = 0; i < flavourChoices.length; i++) {
     const elem = document.createElement("button");
     elem.setAttribute("id", flavourChoices[i]);
+    elem.innerHTML = flavourChoices[i].charAt(0).toUpperCase() + flavourChoices[i].slice(1)
     flavour.appendChild(elem);
     elem.addEventListener('click', () => {
       elem.style.backgroundColor = "green";
+
+      teaFlavour.innerHTML = "Saveur : " + flavourChoices[i].charAt(0).toUpperCase() + flavourChoices[i].slice(1) + "."
     })
   }
   choices.appendChild(flavour);
@@ -221,3 +258,11 @@ heatButton.addEventListener('click', () => {
 sizeButton.addEventListener('click', () => {
   createSizeChoices();
 });
+
+confirm.addEventListener('click', () => {
+  // confirm dialog
+  alertify.confirm("En cliquant sur OK, votre commande sera passée à Moment Tea.", function () {
+      alertify.logPosition("top");
+      alertify.success("Merci, on s'occupe de votre commande ! :)");
+  });
+})
