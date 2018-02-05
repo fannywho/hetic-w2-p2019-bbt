@@ -3,9 +3,8 @@
 <head lang="fr">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Qualité - Moment Tea</title>
+    <title>Moment Tea</title>
     <!-- With gulp -->
-
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -75,39 +74,39 @@
 
 
         <div class="recipes">
-            <h2>Recettes</h2>
+            <h2 class="recipes__section">Recettes</h2>
             <div class="recipes__gallery">
-                <div class="recipes__item">
+                <div class="recipes__item fraises">
                     <img src="img/img-content/small-fraises.png" alt="Bubble Tea Fraise Yaourt">
                     <div class="recipes__title">
                         <p>Fraise -</p><span>Yaourt</span>
                     </div>
                 </div>
-                <div class="recipes__item">
+                <div class="recipes__item speculos">
                     <img src="img/img-content/small-speculos.jpg" alt=" Bubble Tea Speculos">
                     <div class="recipes__title">
                         <p>Daily -</p><span>Balance</span>
                     </div>
                 </div>
-                <div class="recipes__item">
+                <div class="recipes__item mangue">
                     <img src="img/img-content/small-mangue.jpg" alt=" Bubble Tea Mangue Litchi">
                     <div class="recipes__title">
                         <p>Mangue -</p><span>Litchi</span>
                     </div>
                 </div>
-                <div class="recipes__item">
+                <div class="recipes__item mangue-citron">
                     <img src="img/img-content/small-mangue-citron.jpg" alt=" Bubble Tea Mangue Citron">
                     <div class="recipes__title">
                         <p>Mangue -</p><span>Citron</span>
                     </div>
                 </div>
-                <div class="recipes__item hidden-xs">
+                <div class="recipes__item oreos hidden-xs">
                     <img src="img/img-content/small-oreos.png" alt=" Bubble Tea Mangue Citron">
                     <div class="recipes__title">
                         <p>Oreos</p>
                     </div>
                 </div>
-                <div class="recipes__item hidden-xs">
+                <div class="recipes__item speculoos hidden-xs">
                     <img src="img/img-content/speculoos.png" alt=" Bubble Tea Mangue Citron">
                     <div class="recipes__title">
                         <p>Speculos -</p>
@@ -166,18 +165,63 @@
                 </div>
             </div>
             <!-- -->
+
+            <div class="small-modal">
+                <div class="small-modal__content">
+                    <div class="small-modal__close">
+                        <img src="img/icons/close.svg" alt="Croix de fermeture">
+                    </div>
+                    <div class="small-modal__gallery">
+                        <div class="small-modal__title">
+                            <p></p>
+                        </div>
+                        <div class="small-modal__img">
+                            <img class="small-modal__picture" src="" alt="">
+                        </div>
+                        <div class="small-modal__description">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- début div atelier -->
         <div class="atelier">
           <h2>L'atelier</h2>
           <div id="container">
-            <div class="buttons">
-              <button id="tea-button">T</button>
-              <button id="flavour-button">F</button>
-              <button id="bubble-button">B</button>
-              <button id="heat-button">H</button>
-              <button id="size-button">S</button>
-            </div>
+            <ul class="buttons">
+              <li>
+                <button id="tea-button">
+                  <img src="img/icons/ellipse.svg" alt="choix base de thé" />
+                </button>
+                <span>Base de thé</span>
+              </li>
+              <li>
+                <button id="flavour-button">
+                  <img src="img/icons/lemon.svg" alt="choix saveur du thé" />
+                </button>
+                <span>Saveur</span>
+              </li>
+              <li>
+                <button id="bubble-button">
+                  <img src="img/icons/bubbles.svg" alt="choix des bubbles" />
+                </button>
+                <span>Bubbles</span>
+              </li>
+              <li>
+                <button id="heat-button">
+                  <img src="img/icons/heat.svg" alt="choix de chaleur" />
+                </button>
+                <span>Chaleur</span>
+              </li>
+              <li>
+                <button id="size-button">
+                  <img src="img/icons/tea.svg" alt="choix de taille" />
+                  <img src="img/icons/tea.svg" alt="choix de taille" />
+                </button>
+                <span>Taille</span>
+              </li>
+            </ul>
             <div id="cup">
               <div id="straw"></div>
               <div id="light"></div>
@@ -190,10 +234,92 @@
               <span class="bubble" id="seven"></span>
             </div>
             <div id="choices"></div>
-            <div id="summary">lorem tarass</div>
+            <div class="summary">
+              <h3>Votre recette :</h3>
+              <ul class="summary-list">
+                <li id="tea-base"></li>
+                <li id="tea-flavour"></li>
+                <li id="tea-bubble"></li>
+                <li id="tea-heat"></li>
+                <li id="tea-size"></li>
+              </ul>
+            </div>
             <button id="valid-atelier">Commander</button>
           </div>
-        </div>
+          <div id="container-desktop">
+            <!-- atelier desktop -->
+            <div id="atelier-intro">
+              <h3>Bienvenue dans l'atelier</h3>
+              <p>Personnalisez ici même votre propre Bubble Tea et rendez la dégustation unique.</p>
+              <h3>Sélectionnez</h3>
+              <p>Choisissez vos propres ingrédients par catégorie.</p>
+              <h3>Créez</h3>
+              <p>Visualisez votre création unique dans l'atelier.</p>
+              <h3>Commandez</h3>
+              <p>Commandez et récuperez votre bubble bea au Moment Tea de votre choix.</p>
+            </div>
+            <div>
+              <div id="cup">
+                <div id="straw"></div>
+                <div id="light"></div>
+                <span class="bubble" id="one"></span>
+                <span class="bubble" id="two"></span>
+                <span class="bubble" id="three"></span>
+                <span class="bubble" id="four"></span>
+                <span class="bubble" id="five"></span>
+                <span class="bubble" id="six"></span>
+                <span class="bubble" id="seven"></span>
+              </div>
+            </div>
+            <div>
+              <ul class="buttons">
+                <li>
+                  <button id="tea-button">
+                    <img src="img/icons/ellipse.svg" alt="choix base de thé" />
+                  </button>
+                  <span>Base de thé</span>
+                </li>
+                <li>
+                  <button id="flavour-button">
+                    <img src="img/icons/lemon.svg" alt="choix saveur du thé" />
+                  </button>
+                  <span>Saveur</span>
+                </li>
+                <li>
+                  <button id="bubble-button">
+                    <img src="img/icons/bubbles.svg" alt="choix des bubbles" />
+                  </button>
+                  <span>Bubbles</span>
+                </li>
+                <li>
+                  <button id="heat-button">
+                    <img src="img/icons/heat.svg" alt="choix de chaleur" />
+                  </button>
+                  <span>Chaleur</span>
+                </li>
+                <li>
+                  <button id="size-button">
+                    <img src="img/icons/tea.svg" alt="choix de taille" />
+                    <img src="img/icons/tea.svg" alt="choix de taille" />
+                  </button>
+                  <span>Taille</span>
+                </li>
+              </ul>
+              <div id="choices"></div>
+              <div class="summary">
+                <h3>Votre recette :</h3>
+                <ul class="summary-list">
+                  <li id="tea-base"></li>
+                  <li id="tea-flavour"></li>
+                  <li id="tea-bubble"></li>
+                  <li id="tea-heat"></li>
+                  <li id="tea-size"></li>
+                </ul>
+              </div>
+            </div>
+            <button id="valid-atelier">Commander</button>
+          </div>
+      </div>
         <!-- Fin atelier -->
     </main>
     <div class="pre-footer col-12">
@@ -236,5 +362,4 @@
     </footer>
     <script type="text/javascript" src="js/index.js"></script>
 </body>
-<script type="text/javascript" src="js/index.js"></script>
 </html>

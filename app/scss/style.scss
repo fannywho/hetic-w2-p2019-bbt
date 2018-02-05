@@ -8,9 +8,14 @@
 @import "imports/_prefooter.scss";
 @import "imports/_recipes.scss";
 @import "imports/_modal.scss";
-
+@import "imports/_small-modal.scss";
 * {
   box-sizing: border-box;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
 }
 
 .cf:before,
@@ -141,4 +146,3 @@ body {
   }
 
 }
-

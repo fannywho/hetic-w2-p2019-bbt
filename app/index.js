@@ -228,3 +228,4 @@ heatButton.addEventListener('click', () => {
 sizeButton.addEventListener('click', () => {
   createSizeChoices();
 });
+import './js/atelier'

@@ -12,7 +12,9 @@
   background-color: #FFF9EF;
   z-index: 2;
   &__title {
+    text-align: center;
     margin-top: 40px;
+    margin-bottom: 45px;
   }
   &__item {
     position: relative;

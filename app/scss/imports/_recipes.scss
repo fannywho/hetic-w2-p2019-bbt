@@ -5,6 +5,10 @@
     max-width: 992px;
     margin: 0 auto;
   }
+  &__section {
+    text-align: center;
+    margin-bottom: 45px;
+  }
   &__gallery,
   &__large-gallery{
     display: flex;
