@@ -48,6 +48,11 @@
     width: 261px;
     height: auto;
     margin-bottom: 16px;
+    margin-left: auto;
+    @include bp('tablet') {
+      width: auto;
+      margin-right: auto;
+    }
   }
   &__description {
     @include font-size(14px);

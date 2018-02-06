@@ -43,6 +43,10 @@
       height: 200px;
       margin: 41px;
       overflow: hidden;
+      img {
+        width: 200px;
+        height: auto;
+      }
     }
     &:hover {
       cursor: pointer;
