@@ -16,11 +16,35 @@
     margin-top: 40px;
     margin-bottom: 45px;
   }
+  &__subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    color: rgba(0,0,0,0.75);
+    background-color: rgba(255, 249, 239, 0.7);
+    @include bp('tablet') {
+      height: 35px;
+      bottom: 30px;
+      width: 200px;
+    }
+    &--no-gap {
+      @include bp('tablet') {
+        bottom: 15px;
+      }
+    }
+  }
   &__item {
     position: relative;
     width: 148px;
     height: 158px;
     margin: 5px;
+    img {
+      height: 158px;
+      width: 148px;
+    }
     @include bp('tablet') {
       width: 232px;
       height: 232px;
@@ -28,14 +52,19 @@
       max-width: 232px;
       max-height: 232px;
       overflow: hidden;
+      img {
+        width: 200px;
+        height: auto;
+      }
+
     }
   }
   &__close {
     position: absolute;
     top: 15px;
     left: 15px;
-    width: 18px;
-    height: 18px;
+    max-width: 18px;
+    max-height: 18px;
     &:hover {
       cursor: pointer;
     }
