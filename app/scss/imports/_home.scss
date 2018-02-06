@@ -5,6 +5,15 @@ header {
   z-index: 99;
   padding-top: 20px;
   background: rgba(255, 249, 239, 0.8);
+
+    .logo_compact{
+      display: none;
+      @media screen and (max-width:960px) {
+        display: block;
+        margin-left: 5%;
+        width:18%;
+      }
+    }
     .logo {
       position:absolute;
       margin-right: 0;
@@ -12,6 +21,9 @@ header {
       left: 0;
       display: block;
       width: 10%;
+      @media screen and (max-width:960px) {
+        display: none;
+      }
     }
 
     h1{
