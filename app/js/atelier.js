@@ -262,7 +262,7 @@ sizeButton.addEventListener('click', () => {
 confirm.addEventListener('click', () => {
   // confirm dialog
   alertify.confirm("En cliquant sur OK, votre commande sera passée à Moment Tea.", function () {
-      alertify.logPosition("top");
+      alertify.logPosition("bottom");
       alertify.success("Merci, on s'occupe de votre commande ! :)");
   });
 })
