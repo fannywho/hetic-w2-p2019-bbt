@@ -52,6 +52,10 @@
     @include bp('tablet') {
       width: auto;
       margin-right: auto;
+      img {
+        width: 261px;
+        height: auto;
+      }
     }
   }
   &__description {
