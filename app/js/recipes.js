@@ -1,6 +1,7 @@
 const showAllRecipes = () => {
   const smallGallery = document.querySelector('.modal');
   smallGallery.style.display = "block";
+  document.body.style.overflow = "hidden";
 };
 
 const switchButton = document.querySelector('.recipes__discover');
@@ -72,6 +73,7 @@ window.onload = function () {
         modalDescription.innerHTML =  modalValues.description;
         modalImg.src = modalValues.img;
         smallModal.style.display = "block";
+        document.body.style.overflow = "hidden";
       })
     }
 };
