@@ -10,6 +10,7 @@ p {
   background-color: $bridal-heath;
   color: $emperor;
   margin-top: 20px;
+  font-family: 'Lato', 'arial', sans-serif;
   @include font-size(14px);
   @include bp('tablet') {
     justify-content: center;
