@@ -44,6 +44,9 @@
       margin: 41px;
       overflow: hidden;
     }
+    &:hover {
+      cursor: pointer;
+    }
   }
   &__title{
     display: flex;
