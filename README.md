@@ -7,9 +7,12 @@
 
 `npm install`
 
+### Développement
+`npm run dev`
+
 
 ### Déploiement
-`npm run dev`
+`npm run build`
 
 ### Url du projet en ligne
 https://bbt.netlify.com/
