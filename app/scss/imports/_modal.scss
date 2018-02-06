@@ -16,6 +16,26 @@
     margin-top: 40px;
     margin-bottom: 45px;
   }
+  &__subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    color: rgba(0,0,0,0.75);
+    background-color: rgba(255, 249, 239, 0.7);
+    @include bp('tablet') {
+      height: 35px;
+      bottom: 30px;
+      width: 200px;
+    }
+    &--no-gap {
+      @include bp('tablet') {
+        bottom: 0;
+      }
+    }
+  }
   &__item {
     position: relative;
     width: 148px;
