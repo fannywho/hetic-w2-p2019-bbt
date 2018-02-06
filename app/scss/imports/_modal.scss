@@ -32,7 +32,7 @@
     }
     &--no-gap {
       @include bp('tablet') {
-        bottom: 0;
+        bottom: 15px;
       }
     }
   }
