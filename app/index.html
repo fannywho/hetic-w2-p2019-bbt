@@ -9,15 +9,17 @@
 </head>
 <body>
   <header>
-      <h1>Moment Tea</h1>
+      <!-- <h1>Moment Tea</h1> -->
+
         <img src="img/img-layout/menu-button.png" alt="menu" class="responsive-menu">
       <nav class="header_navigation">
+        <img src="img/img-layout/logo.png" alt="Moment Tea" class="logo">
         <img src="img/img-layout/close-button.png" alt="close" class="close-menu">
         <ul>
-          <li><a href="#" alt="#" class="active">Accueil</a></li>
-          <li><a href="#" alt="#">A propos</a></li>
-          <li><a href="#" alt="#">Recettes</a></li>
-          <li><a href="#" alt="#">Atelier</a></li>
+          <li><a href="#landing" alt="#" class="active">Accueil</a></li>
+          <li><a href="#slider" alt="#">A propos</a></li>
+          <li><a href="#recipes" alt="#">Recettes</a></li>
+          <li><a href="#atelier" alt="#">Atelier</a></li>
         </ul>
       </nav>
         <!-- <h1>Moment Tea</h1>
@@ -25,14 +27,14 @@
         <!-- <svg class="menu" alt="menu"/>  -->
     </header>
     <main>
-        <div class="landing">
+        <div id="landing" class="landing">
             <div class="container">
                 <h2>Good moment, good tea</h2>
                 <p>Découvrez une nouvelle manière de voir le thé.</p>
                 <svg class="scroll-down" alt="scroll-down"/>
             </div>
         </div>
-        <div class="slider">
+        <div id="slider" class="slider">
             <nav class="navigation">
               <ul>
                 <li class="active">A propos</li>
@@ -57,7 +59,7 @@
                 </div>
             </div>
         </div>
-        <div class="recipes">
+        <div id="recipes" class="recipes">
             <h2 class="recipes__section">Recettes</h2>
             <div class="recipes__gallery">
                 <div class="recipes__item fraises">
@@ -170,7 +172,7 @@
             </div>
         </div>
         <!-- début div atelier -->
-        <div class="atelier">
+        <div id="atelier" class="atelier">
           <h2>L'atelier</h2>
           <div id="container">
             <div id="atelier-intro">
