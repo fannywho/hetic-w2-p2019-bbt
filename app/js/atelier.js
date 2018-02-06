@@ -59,7 +59,7 @@ function createTeaChoices() {
     }
     green.classList.add('active');
 
-    teaBase.innerHTML = "Base de thé : Vert."
+    teaBase.innerHTML = "Base de thé : Vert.";
   });
   black.addEventListener('click', () => {
     cup.style.borderTop = "200px solid brown";
@@ -68,7 +68,7 @@ function createTeaChoices() {
     }
     black.classList.add('active');
 
-    teaBase.innerHTML = "Base de thé : Noir."
+    teaBase.innerHTML = "Base de thé : Noir.";
   });
 };
 

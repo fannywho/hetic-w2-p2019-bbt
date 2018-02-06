@@ -11,25 +11,34 @@
   margin: 10px;
 
   @media screen and (min-width: 760px) {
-    display: none;
-  }
-}
-
-.atelier #container-desktop {
-  display: none;
-
-  @media screen and (min-width: 760px) {
     display: flex;
     flex-wrap: wrap;
+  }
 
-     & > *:not(:last-child) {
-       flex: 1;
-       margin: 20px;
-     }
+  & #atelier-intro {
+    display: none;
+
+    @media screen and (min-width: 760px) {
+      display: block;
+      width: 50%;
+      line-height: 1.5em;
+      align-self: center;
+
+      & p {
+        margin-bottom: 10px;
+      }
+    }
   }
 }
 
 /***** Boutons choix 1 *****/
+#atelier-diy {
+  @media screen and (min-width: 760px) {
+    width: 50%;
+  }
+}
+
+
 .atelier .buttons {
   list-style-type: none;
   display: flex;
@@ -154,6 +163,10 @@ button#size-button img {
 
   & ul {
     list-style-type: none;
+  }
+
+  @media screen and (min-width: 760px) {
+    width: 100%;
   }
 }
 
