@@ -199,7 +199,12 @@ function createSizeChoices() {
     elem.innerHTML = sizeChoices[i].charAt(0).toUpperCase() + sizeChoices[i].slice(1)
     size.appendChild(elem);
     elem.addEventListener('click', () => {
-      elem.style.backgroundColor = "green";
+      const sizeButtons = document.querySelectorAll('.size button');
+      for(let j = 0; j < sizeButtons.length; j++) {
+        sizeButtons[j].style.backgroundColor = "";
+      }
+
+      elem.style.backgroundColor = "lightgreen";
 
       teaSize.innerHTML = "Taille : " + sizeChoices[i] + "."
     })
@@ -233,7 +238,12 @@ function createFlavourChoices() {
     elem.innerHTML = flavourChoices[i].charAt(0).toUpperCase() + flavourChoices[i].slice(1)
     flavour.appendChild(elem);
     elem.addEventListener('click', () => {
-      elem.style.backgroundColor = "green";
+      const flavourButtons = document.querySelectorAll('.flavour button');
+      for(let j = 0; j < flavourButtons.length; j++) {
+        flavourButtons[j].style.backgroundColor = "";
+      }
+
+      elem.style.backgroundColor = "lightgreen";
 
       teaFlavour.innerHTML = "Saveur : " + flavourChoices[i].charAt(0).toUpperCase() + flavourChoices[i].slice(1) + "."
     })
